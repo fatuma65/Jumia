@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="jumia.css">
         <title>Jumia Homepage</title>
+        <script>
+           function pressed(){
+                var test = document.getElementById("clicked");
+                if (test !== "black"){
+                    document.getElementById("clicked").style.color = "white"
+                }
+                document.getElementById("clicked").style.color = "black"
+           }
+        </script>
     </head>
     <body>
         <section class="header">
@@ -14,8 +23,8 @@
         <section class="header1">
             <h3 class="paragraph3">JUMIA</h3>
                 <form>
-                    <input type="search">
-                    <button>SEARCH</button>
+                    <input type="text" onclick="pressed()"> 
+                    <button id="clicked">SEARCH</button>
                 </form>
                 <h6>Hi, Cathy</h6>
                 <h6>Help</h6>
@@ -44,13 +53,19 @@
                 <div class="container1">
                     <ul>
                         <li>HELP CENTER
-                            <li>Guide To Customer Care</li>
+                            <ul>
+                                <li>Guide To Customer Care</li>
+                            </ul>
                         </li>
                         <li>EASY RETURN
-                            <li>Quick Refund</li>
+                            <ul>
+                                <li>Quick Refund</li>
+                            </ul>
                         </li>
                         <li>SELL ON JUMIA
-                            <li>Millions Of Visitors</li>
+                            <ul>
+                                <li>Millions Of Visitors</li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
