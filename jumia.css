@@ -88,8 +88,14 @@ li {
     list-style-type: none;
     font-size: 15px;
 }
+img {
+    margin-left: 15px;
+}
+#small {
+    margin-bottom: 100em;
+}
 .row1 {
-    margin-left: 950px;
+    margin-left: 1070px;
     line-height: 15px;
 }
 .container1 {
@@ -100,7 +106,9 @@ li {
     border-radius: 3%;
     margin-left: 100px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    
+
 }
 .container1 li {
-    float: right;
+    float: left;
 }
