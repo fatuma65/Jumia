@@ -1,77 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="content-type" content="text/html": charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="jumia.css">
-        <title>Jumia Homepage</title>
-        <script>
-            //alert("welcome to this page")
-           function pressed(){
-                var test = document.getElementById("clicked");
-                if (test !== "black"){
-                    document.getElementById("clicked").style.color = "white"
-                }
-                document.getElementById("clicked").style.color = "black"
-           }
-        </script>
-    </head>
-    <body>
-        <section class="header">
-            <h2 class="parahraph1">TREND SETTER 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jumia.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <div class="para">
+            <h2 class="parahraph1">TREND SETTER
                 <p>1st - 27TH AUG</p>
-                <span>Call to order</span>
             </h2>
-            <h5 class="paragraph2">Sell on Jumia<p>JUMIA</p><p>PAY</p><p>FOOD</p><p>FORCE</p></h5>
-        </section>
-        <section class="header1">
-            <h3 class="paragraph3">JUMIA</h3>
-                <form>
-                    <input type="text" onclick="pressed()"> 
-                    <button id="clicked">SEARCH</button>
-                </form>
-                <h6>Hi, Cathy</h6>
-                <h6>Help</h6>
-                <h6>Cart</h6>
-        </section>
-        <section class="listings">
-            <div class="row">
-                <div class="container">
+            <h4 class="call">Call to order <br> </h4>
+            <h6>0323 001 380</h6> 
+        </div>
+        <div class="paragraph2">
+            <h5>Sell on Jumia</h5>
+            <ul>
+                <li>JUMIA</li>
+                <li>PAY</li>
+                <li>FOOD</li>
+                <li>FORCE</li>
+            </ul>
+        </div>
+    </section>
+    <section class="header1">
+        <h3>JUMIA</h3>
+        <form>
+            <input type="text"> 
+            <button id="clicked">SEARCH</button>
+        </form>
+        <h6>Hi, Cathy</h6>
+        <h6>Help</h6>
+        <h6>Cart</h6>
+    </section>
+    <section class="listings">
+        <div class="row">
+            <div class="container">
+                <ul>
+                    <li>Home & Office</li>
+                    <li>Appliances</li>
+                    <li>Supermarket</li>
+                    <li>Phones & Tablets</li>
+                    <li>Electornics</li>
+                    <li>Computing</li>
+                    <li>Gaming</li>
+                    <li>Fashion</li>
+                    <li>Health & Beauty</li>
+                    <li>Baby Products</li>
+                    <li>Sporting Goods</li>
+                    <li>Other categories</li>
+                </ul>
+            </div>
+        </div>
+        <img src="jumia image.png" alt="jumia image" width="48%" id="imgs">
+        <section>
+            <div class="row1">
+                <div class="container1">
                     <ul>
-                        <li>Home & Office</li>
-                        <li>Appliances</li>
-                        <li>Supermarket</li>
-                        <li>Phones & Tablets</li>
-                        <li>Electornics</li>
-                        <li>Computing</li>
-                        <li>Gaming</li>
-                        <li>Fashion</li>
-                        <li>Health & Beauty</li>
-                        <li>Baby Products</li>
-                        <li>Sporting Goods</li>
-                        <li>Other categories</li>
+                        <li>HELP CENTER
+                            <li>Guide To Customer Care</li>
+                        </li>
+                        <li>EASY RETURN
+                            <li>Quick Refund</li>
+                        </li>
+                        <li>SELL ON JUMIA
+                            <li>Millions Of Visitors</li>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <img src="jumia image.png" alt="jumia image" width="48%">
-            <section>
-                <div class="row1">
-                    <div class="container1">
-                        <ul>
-                            <li>HELP CENTER
-                                <li>Guide To Customer Care</li>
-                            </li>
-                            <li>EASY RETURN
-                                <li>Quick Refund</li>
-                            </li>
-                            <li>SELL ON JUMIA
-                                <li>Millions Of Visitors</li>
-                            </li>
-                        </ul>
-                    </div>
-                    <img src="UG_WK36_Super_savings_Small_Banner_218X184.gif" alt="small banner">
-                </div>
-            </section>
+                <img src="UG_WK36_Super_savings_Small_Banner_218X184.gif" alt="small banner">
+            </div> 
         </section>
-    </body>
+    </section>
+    <link rel="stylesheet" href="script.js">
+</body>
 </html>
